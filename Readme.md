@@ -12,9 +12,9 @@ Precisaremos do [Docker](https://www.docker.com/) instalado na máquina.
 
 ## ⚙️ Executando 
 
-Para iniciar o serviço NGINX, precisamos fazer o download do repositório para uma pasta local:
+Para iniciar o serviço NGINX, precisamos fazer o download/clone do repositório para uma pasta local:
 ```
-# curl 
+# git clone https://github.com/luucaslfs/nginx_app.git
 ```
 
 Com o working dir setado para a pasta que contém nosso dockerfile, execute o seguinte comando para criar uma imagem personalizada do NGINX:
